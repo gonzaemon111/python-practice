@@ -32,3 +32,19 @@ if_test(0)
 
 if_test(-100)
 # num < 0
+
+
+# 以下のように二つの条件文を同時にも可能
+
+def if_test2(num):
+    if 50 < num < 100:
+      # ここ
+        print('50 < num < 100')
+    else:
+        print('num <= 50 or num >= 100')
+
+if_test2(70)
+# 50 < num < 100
+
+if_test2(0)
+# num <= 50 or num >= 100
