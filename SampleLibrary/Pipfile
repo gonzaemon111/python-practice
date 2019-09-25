@@ -9,6 +9,7 @@ verify_ssl = true
 numpy = "*"
 beautifulsoup4 = "*"
 requests = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.7"
