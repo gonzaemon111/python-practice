@@ -14,6 +14,9 @@ $ pipenv run python ファイル名
 
 ## matplotlib
 
+グラフを描画するためのライブラリ
+学習サイト：https://qiita.com/skotaro/items/08dc0b8c5704c94eafb9
+
 ![実行時のグラフ](image.png)
 
 ## scipy
