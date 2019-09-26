@@ -41,4 +41,41 @@ print('計算結果:', ix)
 print('誤差：', err)
 ```
 
+## pandas
+
+Rに類似のデータフレームを提供するライブラリ
+pandasは、Pythonにおいて、データ解析を支援する機能を提供するライブラリである。
+特に、数表および時系列データを操作するためのデータ構造と演算を提供する。
+Pythonで実用的なデータ分析をする際の、高水準な基盤となるべく開発されている。
+Pandasは扱うデータが幅広い
+
+学習/参考サイト : https://qiita.com/ysdyt/items/9ccca82fc5b504e7913a
+
+---
+
+## スクレイピング
+
+## BeautifulSoup4
+
+Pythonの定番HTMLパースライブラリ
+スクレイピングする際は必須のライブラリ。
+
+学習/参考サイト:https://python.civic-apps.com/beautifulsoup4-selector/
+
+
+```python=html.py
+# -*- coding: utf-8 -*-
+
+import urllib.request
+from bs4 import BeautifulSoup
+
+url = "https://qiita.com/"
+f = urllib.request.urlopen(url)
+html = f.read().decode('utf-8')
+
+soup = BeautifulSoup(html, "html.parser")
+```
+
+
+
 
